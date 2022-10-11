@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+:root {
+  /* ADD Colors In This */
+  /* Like This  */
+  --primaryColor: #26052f;
+  --secondaryColor: #be4cff;
+  --tertiaryColor: white;
+  --quaternaryColor: black;
+
+  /* Add fonts */
+  --font0: Poppins;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
