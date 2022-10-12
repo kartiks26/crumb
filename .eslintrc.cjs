@@ -1,13 +1,21 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es6: true,
+    amd: true,
     node: true,
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
-  overrides: [],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
+  parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2018,
     sourceType: 'module',
   },
   plugins: ['react'],
@@ -15,5 +23,10 @@ module.exports = {
     'react/display-name': 'off',
     'react/prop-types': 'off',
     'no-console': 'error',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 };
