@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "nftImage": "",
+      "title": "Title 1",
+      "description": "",
+      "ethPrice": 0.1,
+      "auctionEnds": 0.1
+    },
+    {
+      "id": 1,
+      "nftImage": "",
+      "title": "Title 1",
+      "description": "",
+      "ethPrice": 0.1,
+      "auctionEnds": 0.1
+    },
+    {
+      "id": 1,
+      "nftImage": "",
+      "title": "Title 1",
+      "description": "",
+      "ethPrice": 0.1,
+      "auctionEnds": 0.1
+    },
+    {
+      "id": 1,
+      "nftImage": "",
+      "title": "Title 1",
+      "description": "",
+      "ethPrice": 0.1,
+      "auctionEnds": 0.1
+    },
+    {
+      "id": 1,
+      "nftImage": "",
+      "title": "Title 1",
+      "description": "",
+      "ethPrice": 0.1,
+      "auctionEnds": 0.1
+    },
+    {
+      "id": 1,
+      "nftImage": "",
+      "title": "Title 1",
+      "description": "",
+      "ethPrice": 0.1,
+      "auctionEnds": 0.1
+    }
+  ]
+}

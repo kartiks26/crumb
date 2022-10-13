@@ -6,7 +6,17 @@
   justify-content: center;
   background-color: $quaternaryColor;
   align-items: center;
+  background-repeat: no-repeat;
+  .Background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 50%;
+  }
   div {
+    z-index: 3;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -7,8 +7,9 @@ function App() {
   const yse = "11";
   return (
     <div className="App">
+      <img className="Background" src="/assets/background.svg" />
       <div>
-        <img src="assets/crumb.svg" />
+        <img src="/assets/crumb.svg" />
         <h2>CRUMB</h2>
         <p>Get started with your NFT journey. NOW!</p>
       </div>
