@@ -1,9 +1,10 @@
+@import "./constants/colors.scss";
 .App {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: var(--quaternaryColor);
+  background-color: $quaternaryColor;
   align-items: center;
   div {
     display: flex;
@@ -15,13 +16,13 @@
       translate: 0px 50px;
     }
     h2 {
-      font-family: var(--font0);
-      color: var(--tertiaryColor);
+      font-family: $font0;
+      color: $tertiaryColor;
       font-size: 4rem;
     }
     p {
-      font-family: var(--font0);
-      color: var(--tertiaryColor);
+      font-family: $font0;
+      color: $tertiaryColor;
     }
   }
 }
